@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+ }
+ body {
+    background: #1A1C2D;
+    scroll-behavior: smooth;
+    transition: 800ms all ease-in-out;
+    height: 100vh;
+ }
+ .section {
+    width: 100%;
+    height: none;
+    display: flex;
+    margin-top: 2rem;
+ }
+ .top{
+    background: #202230;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+ .top .side-top {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    gap: 1rem;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+.pro{
+    color: yellow;
+}
+.top .side-top a {
+    color: #ffffff;
+    
+}
+.top .side-top a:hover {
+    color: purple;
+}
+.shop{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 18px;
+    text-align: center;
+}
+.line{
+    width: 1px;
+    height: 25px;
+    border-right: 1px solid #202230;
+    background-color: #353743;
+}
+i{
+    color: #ffffff;
+}
+.containter{
+    background: #282b3f;
+    width: 88%;
+    height: 90vh;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 4rem;
+    margin-top: 3.5rem;
+    color: white;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.form{
+    margin-top: 2rem;
+    display: flex;
+}
+.for img{
+    width: 220px;
+    height: 100%;
+    transform: rotate(8deg);
+}
+.text{
+    color: #ffffff;
+    margin-left: 2rem;
+    box-shadow: #202230;
+}
+.buy{
+    color: orange;
+}
+.buy i{
+    color: orange;
+}
+.page-2 i{
+    align-items: center;
+    margin-top: 1px;
+    font-size: 25px;
+    color: yellow;
+}
+.icon{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+.god{
+    color: #ffffff;
+    background: 2E3146;
+    height: 50px;
+}
+.icon-2{
+    margin-left: 2rem;
+}
+.gods{
+    color: #ffffff;
+    background: 2E3146;
+    height: 50px;
+    margin-left: 1rem;
+}
+.icon:hover{
+    background: #1A1C2D;
+    height: 20px;
+    width: 15px;
+}
